@@ -6,7 +6,9 @@ public class Health : MonoBehaviour
 {
     public float MAX_HEALTH = 100;
     public float currHealth;
-    public GameObject healthBar;
+    //public GameObject healthBar;
+
+    //public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -14,14 +16,26 @@ public class Health : MonoBehaviour
         currHealth = MAX_HEALTH;
     }
 
-    // Update is called once per frame
-    void Update()
+    //when player takes damage
+    void takeDamage(int amount)
     {
-        healthBar.transform.localScale = new Vector3((currHealth) / MAX_HEALTH, 1.0F, 1.0F);
-        if(currHealth <= 0)
+        currHealth -= amount;
+
+        if (currHealth <= 0)
         {
-            //add which scene
-            SceneManager.LoadScene(sceneName: "");
+            //death animation
+            //anim.SetBool("isDead", true);
+        }
+    }
+
+    //when player heals
+    void Heal(int amount)
+    {
+        currHealth += amount;
+
+        if (currHealth > MAX_HEALTH)
+        {
+            currHealth = MAX_HEALTH;
         }
     }
 }
