@@ -1,0 +1,25 @@
+Assistant: "Wow, I can't believe you made it all the way here!"
+
+Assistant: "Zone 2 is supposed to be pretty tough. You must be quite the battler!"
+
+Assistant: "Oh? You heard about an experiment from Zone Boss? I don't know why he calls himself that."
+
+Assistant: "And then the doctor told you to meet me out here? Very interesting, I never can tell what he's thinking."
+
+Assistant: "Well the information about the experiment is classified so if you want to know, you'll have to beat me first!"
+
+Assistant: "And just a warning, I won't be taking it easy on you this time!"
+
+-you are challenged to battle by Assistant-
+
+Assistant: "Wow, you really are strong! The strongest I've seen so far!"
+
+Assistant: "I guess I have no choice but to tell you the details of the experiment. . ."
+
+Assistant: "See, what we're doing here right now. THAT'S the experiment. More precisely, YOU are the experiment!"
+
+Assistant: "These Zones were set up to test your skills in real combat. We're trying to see just how viable you are as an Insectosaur battler."
+
+Assistant: "The results are certainly promising. I bet the doctor will be so excited when you tell him you've passed with flying colors!"
+
+Assistant: "Hurry back to the lab now. I'm sure you two will have so much to talk about!"

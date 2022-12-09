@@ -1,0 +1,37 @@
+Dr. Muto: “So you’ve finally made it all the way back here. . .”
+
+Dr. Muto: “You probably think you’re hot stuff after beating some useless underlings. Well let me put it in perspective for you: if my minions were worth anything then I wouldn’t have a need to create someone like you!”
+
+Dr. Muto: “That’s right! Everything you think you are, everything you think you’ve accomplished is because of me! I created you!”
+
+Dr. Muto: “There was never any accident, there was never any you! I created you right here in this lab so that you could carry out my plans. You have no memories because you didn’t exist before I made you!”
+
+Dr. Muto: “Yes, even that precious name you’ve grown so attached to is because of me! Who do you think wrote it on your file? I gave you life! I gave you everything!”
+
+Dr. Muto: “All those struggles you’ve been through and all those battles you think you’ve won; merely tests for my project. A project to create super insectosaur trainers under my direct control. Trainers that will carry out my bidding to control all insectosaurs and through them, the world!”
+
+Dr. Muto: “Why, you ask? I’ll tell you. . . “
+
+Dr. Muto: "When I was younger, I was fascinated by Insectosaurs. I wanted to learn everything about them. They were special to me."
+
+Dr. Muto: "But I learned a harsh lesson at the teeth of a wild Tyranucles. It bit my leg clean off and left me with this metal appendage."
+
+Dr. Muto: "I learned the only way to make it in this world is to have power. Mere humans could never match the power of an Insectosaur, so I set out to find ways to control them and use their power for myself."
+
+Dr. Muto: "It took a long time, but I eventually expanded on this plan to create trainers here in this lab who would follow my commands blindly. Trainers who would be unmatched in mastering the Insectosaurs' power."
+
+Dr. Muto: "And that leads us to here, today. You're my first subject to make it this far."
+
+Dr. Muto: “I do commend you on passing my tests so brilliantly, but maybe that’s just more proof of my own overwhelming genius mwahahah!”
+
+Dr. Muto: “I hope it helps you rest easy knowing you were just the first step in my plan for world domination, but the tests are over and this subject is well past its expiration date!”
+
+-this triggers the final battle-
+
+Dr. Muto: “B-but how? I created you! I can uncreate you! How are you so strong!?”
+
+Dr. Muto: “W-w-what’s going to happen now?”
+
+-a prompt appears giving the player three choices: destroy the lab and set out to destroy other labs, take over the lab and repurpose it for the safe study of insectosaurs, or continue the lab’s work and have Dr. Muto work under you-
+
+-making a selection triggers the epilogue and displays it to the player-

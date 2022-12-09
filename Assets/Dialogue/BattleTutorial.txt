@@ -1,0 +1,35 @@
+Assistant: "Thanks for meeting me here!"
+
+Assistant: "Dr. Muto has instructed me to give you some more details about this world so you can better protect yourself."
+
+Assistant: "You now know that we share this world with these amazing creatures we call Insectosaurs."
+
+Assistant: "What you probably don't know is that even though they're dangerous, they can be quite shy. Insectosaurs often hide out in bushes and will attack you if you spook them!"
+
+Assistant: "Not only that, but people you meet have their own Insectosaurs and may challenge you to a battle. You have to be careful who you talk to!"
+
+Assistant: "If your Insectosaur is defeated in battle, you'll definitely be attacked next. I hate to say it, but since you just recovered you probably won't survive if that happens!"
+
+Assistant: "To help prevent that, I'm going to teach you the basics of battle so you can better defend yourself."
+
+Assistant: "Insectosaurs have two attacks that they can use while in combat. Each Insectosaur is different, so you'll have to figure out what moves each one has for yourself."
+
+Assistant: "When battling, you should see a bar that represents each Insectosaur's health. Whoever gets to zero first is the loser, so please try to avoid that!"
+
+Assistant: "We have developed an item that can heal your Insectosaur. You can heal both in and out of combat. These are precious, so choose carefully when to use them."
+
+Assistant: "Here are some healing potions to get you started."
+
+-you recieve some healing potions-
+
+Assistant: "You can also choose to run away from a battle, but be warned, you can't run away from every fight!"
+
+Assistant: "Just to give you a taste of what that's like, I'm going to challenge you to a battle right now! Don't worry, I'll go easy on you!"
+
+-Assistant Katarina challenges you to a battle-
+
+Assistant: "Well it seems like you've got the basics down enough that you can at least defend yourself."
+
+Assistant: "If you're going to try and get your memories back, I suggest walking around the zone next to town. You may find something there that will trigger them."
+
+Assistant: "Just speak to the guard in front of the gate. You'll have to prove yourself to him before you can pass. Good luck!"
