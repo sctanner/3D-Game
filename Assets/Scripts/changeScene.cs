@@ -7,6 +7,7 @@ public class changeScene : MonoBehaviour
 {
 
     public void LoadScene(string sceneName){
+        RenderSettings.ambientLight = Color.white;
         SceneManager.LoadScene(sceneName);
     }
 

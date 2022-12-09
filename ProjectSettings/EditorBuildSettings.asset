@@ -9,12 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: cafa154e559b2b645b4009cc6d6284df
   - enabled: 1
-    path: Assets/Scenes/BattleMenu.unity
-    guid: e36280a05e23df8448f1b342fa101173
+    path: Assets/Scenes/Facility.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/DialogueSystem.unity
+    guid: 4ab138f6a1a7bbc4dacd9156a83179cc
   - enabled: 1
     path: Assets/Scenes/Outdoor.unity
     guid: 18f42115ad0db334283b14c853e37126
   - enabled: 1
-    path: Assets/Scenes/Facility.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/BattleMenu.unity
+    guid: e36280a05e23df8448f1b342fa101173
+  - enabled: 1
+    path: Assets/Scenes/LoseMenu.unity
+    guid: cf2ac6d68e0d0cc4d8a0ca9069fa5e65
+  - enabled: 1
+    path: Assets/Scenes/OpeningScene.unity
+    guid: 205812ebc72d1604db7f6485a2d3077d
+  - enabled: 1
+    path: Assets/Scenes/Winu.unity
+    guid: b1735082ec8ebed4498f60fce60e54f9
   m_configObjects: {}
