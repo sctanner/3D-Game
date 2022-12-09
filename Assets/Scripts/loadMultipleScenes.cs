@@ -22,10 +22,16 @@ public class loadMultipleScenes : MonoBehaviour
             dialogueUI.filePath = filePath;
             dialogueUI.currentScene = currentScene;
         };
-        currentWaypoint = 0;
     }
-    private void Update() {
-        
+    public void loadDialogue(string fileName)
+    {
+        var op = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+        op.completed += (x) => {
+            GameObject dialogueCanvas = GameObject.Find("DialogueCanvas");
+            DialogueUI dialogueUI = dialogueCanvas.GetComponent<DialogueUI>();
+            dialogueUI.filePath = fileName;
+            dialogueUI.currentScene = currentScene;
+        };
     }
 }
 

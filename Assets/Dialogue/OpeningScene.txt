@@ -1,4 +1,4 @@
-Unknown: “Hello. . . Can you hear me. . . ?”
+Unknown: “Hello. . . Can you hear me. . . ?” (Press 'SPACE' to advance)
 
 Unknown: “Hello. . . if you can hear me. . .”
 
