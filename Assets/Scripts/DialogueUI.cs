@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
 using System.IO;
@@ -9,10 +10,14 @@ public class DialogueUI : MonoBehaviour
     public string filePath;
     private int dialogueIndex = 0;
     private GameObject target;
-    public string nextScene;
-    private void Start() {
+    public string currentScene;
 
+    void Start()
+    {
+        // Load the dialogue lines from the filePath
         dialogueLines = File.ReadAllLines(filePath);
+
+        // Initialize the dialogue UI
         GetComponent<TypewriterEffect>().Run(dialogueLines[0], textLabel);
         dialogueIndex++;
         target = GameObject.Find("SceneControl");
@@ -24,20 +29,26 @@ public class DialogueUI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // Check if there are more dialogue lines to display
-
-            if(dialogueIndex < dialogueLines.Length && string.IsNullOrEmpty(dialogueLines[dialogueIndex]))
+            if (dialogueIndex < dialogueLines.Length && string.IsNullOrEmpty(dialogueLines[dialogueIndex]))
             {
                 dialogueIndex++;
             }
+            
             if (dialogueIndex < dialogueLines.Length)
             {
                 GetComponent<TypewriterEffect>().Run(dialogueLines[dialogueIndex], textLabel);
                 // Increment the dialogue index
                 dialogueIndex++;
             }
-            if(dialogueIndex==dialogueLines.Length)
+
+            if (dialogueIndex == dialogueLines.Length)
             {
-                target.GetComponent<changeScene>().LoadScene(nextScene);
+                if(currentScene != "OpeningScene"){
+                    target.GetComponent<changeScene>().UnloadScene(currentScene);
+                }else
+                {
+                    target.GetComponent<changeScene>().LoadScene("Facility");
+                }
             }
         }
     }

@@ -5,15 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class loadMultipleScenes : MonoBehaviour
 {
-// The names of the scenes to load
-    public string scene2Name;
-
+    // The name of the scene to load
+    public string sceneName;
+    public int currentWaypoint;
+    // The path to the file that contains the dialogue lines
+    public string filePath;
+    public string currentScene;
+    // Called when the scene is loaded
     void Start()
     {
-        // Load the second scene in the foreground
-        SceneManager.LoadScene(scene2Name, LoadSceneMode.Additive);
-
-        // Set the second scene as the active scene
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene2Name));
+        // Load the sceneName scene in the foreground asynchronously
+        var op = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+        op.completed += (x) => {
+            GameObject dialogueCanvas = GameObject.Find("DialogueCanvas");
+            DialogueUI dialogueUI = dialogueCanvas.GetComponent<DialogueUI>();
+            dialogueUI.filePath = filePath;
+            dialogueUI.currentScene = currentScene;
+        };
+        currentWaypoint = 0;
+    }
+    private void Update() {
+        
     }
 }
+

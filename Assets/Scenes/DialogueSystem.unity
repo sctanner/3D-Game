@@ -130,9 +130,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6204665287759749129, guid: db3f885ea9c665d458a19ee41eabffd4, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6204665288747189589, guid: db3f885ea9c665d458a19ee41eabffd4, type: 3}
       propertyPath: m_Name
-      value: Canvas
+      value: DialogueCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 6204665288747189614, guid: db3f885ea9c665d458a19ee41eabffd4, type: 3}
       propertyPath: m_Pivot.x

@@ -407,7 +407,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textLabel: {fileID: 6270111173299868256}
   filePath: Assets\Dialogue\OpeningScene.txt
-  nextScene: Outdoor
+  currentScene: OpeningScene
 --- !u!114 &6270111172387403526
 MonoBehaviour:
   m_ObjectHideFlags: 0

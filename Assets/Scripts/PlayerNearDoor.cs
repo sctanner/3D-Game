@@ -28,7 +28,6 @@ public class PlayerNearDoor : MonoBehaviour
         // Get the player's transform component
         player = GameObject.FindWithTag("Player").GetComponent<Transform>();
         
-        Debug.Log(player);
         // Set the initial text of the prompt to an empty string
         promptText.text = "Press \'E\' to exit the facility";
     }

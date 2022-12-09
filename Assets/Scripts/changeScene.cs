@@ -7,10 +7,12 @@ public class changeScene : MonoBehaviour
 {
 
     public void LoadScene(string sceneName){
-        RenderSettings.ambientLight = Color.white;
         SceneManager.LoadScene(sceneName);
     }
-
+    public void UnloadScene(string sceneName)
+    {
+        SceneManager.UnloadScene(sceneName);
+    }
     public void quitGame(){
         Application.Quit();
     }
