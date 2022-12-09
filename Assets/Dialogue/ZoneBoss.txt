@@ -1,0 +1,15 @@
+Zone Boss: "Hey! What's a runt like you doing all the way out here?"
+
+Zone Boss: "Look at you all pieced together like some kind of lab rat."
+
+Zone Boss: "You think you can just scurry around this place like you own it? Well I got news for ya, pal: I own it! I'm the Zone Boss!"
+
+Zone Boss: "It's my job to show rats like you their place. I do enjoy my work!"
+
+-you are challenged to a battle by Zone Boss-
+
+Zone Boss: "You're tough for a rat. Been a while since the experiments cooked up something good."
+
+Zone Boss: "Huh? You don't know about the experiment? Well it's not my place to tell ya. I get paid to battle, not talk."
+
+Zone Boss: "If you've got questions then head back to the doc and see what he says."

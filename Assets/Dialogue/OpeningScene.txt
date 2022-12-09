@@ -1,7 +1,61 @@
-Hello Player
+Unknown: “Hello. . . Can you hear me. . . ?”
+
+Unknown: “Hello. . . if you can hear me. . .”
+
+Unknown: “It’s time. . . Wake up. . .”
 
 You wake up in a facility with no recollection of how you arrived there.
 
 You awake on an operating table with new body parts, some parts of you are now metal.
 
 You look around the facility and there is a scientist and his assistant. The scientist has a peg leg.
+
+Unknown: “Ah yes, hello, how are you feeling?”
+
+Unknown: “I’m Dr. Gregory Muto. It seems you’ve been in a terrible accident.”
+
+Dr. Muto: “Is there anything you can remember? Your name perhaps?”
+
+Dr. Muto: “No luck? Let me take a look at your file here. . .”
+
+-a prompt appears where the player may type their name; default name: Zero-
+
+Dr. Muto: “All it has written under the name is Zero, hm. . . . I guess that’s what we’ll call you.”
+
+Dr. Muto: “It seems your vitals have stabilized and everything else checks out except your memories.”
+
+Dr. Muto: "Allow me to briefly fill you in on our world. We live and coexist with some fascinating creatures we call Insectosaurs."
+
+Dr. Muto: "There are many different kinds you'll run into, depending on where you are. Some are friendly, others hostile. It can be very dangerous if you're not careful."
+
+Dr. Muto: "It may be better for you to experience these things for yourself. Something might trigger your memories to come back."
+
+Dr. Muto: “Now before I can release you, I must ask a few standard questions.”
+
+Dr. Muto: “Are you a morning person or a night owl?”
+
+-a prompt appears where the player must choose one or the other-
+
+Dr. Muto: “I see. Now do you prefer hot temperatures or cold climates?”
+
+-another prompt appears for the player to make a choice-
+
+Dr. Muto: “Understood. Now finally, when the going gets tough. . . are you the type to get going?”
+
+-a final prompt appears for the player to choose yes or no-
+
+Dr. Muto: “Yes, yes, I see. . .”
+
+Dr. Muto: “Well everything checks out here, so I’ll go ahead and put in the paperwork to release you. You can speak with my assistant down to receive an insectosaur for your protection.”
+
+Dr. Muto: “Once you’re all set, please make your way to the fountain in town. My assistant will meet you there and can explain things further.”
+
+-after speaking to the assistant-
+
+Assistant: "Hello! My name is Katarina, but Dr. Muto just calls me Assistant. -sigh- He says he'll remember my name once I achieve something worth remembering."
+
+Assistant: "But enough about me! The doctor has informed me of your preliminary screening results and instructed me to give you an insectosaur."
+
+-you recieve your very own insectosaur-
+
+Assistant: "I'll give you some time to get acquainted and I'll meet you at the fountain in town to fill you in a bit more."

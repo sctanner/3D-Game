@@ -1,0 +1,3 @@
+Gate Guard: "No one is allowed to pass unless they recieve proper authorization from me."
+
+Gate Guard: "Proper authorization is only granted to an individual who can defeat me in battle. Hope you're ready!"
