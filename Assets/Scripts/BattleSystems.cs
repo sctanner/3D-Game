@@ -39,7 +39,7 @@ public class BattleSystems : MonoBehaviour
         GameObject enemyGO = Instantiate(EnemyPrefab, enemyBattleStation);
         enemyUnit = enemyGO.GetComponent<Units>();
 
-        dialogueText.text = enemyUnit.unitsName;
+        dialogueText.text = "An enemy " + enemyUnit.unitsName +  " wants to battle!";
         //unit name in text box
 
         playerInfo.setHUD(playerUnit);

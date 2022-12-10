@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveCamera : MonoBehaviour
+public class Inventory : MonoBehaviour
 {
-    public Transform cameraPosition;
+    string insectosaur;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,15 @@ public class MoveCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = cameraPosition.position;
+        
     }
+    public void setInsectosaur(string insectosaur)
+    {
+        this.insectosaur = insectosaur;
+    }
+    string getInsectosaur()
+    {
+        return this.insectosaur;
+    }
+
 }

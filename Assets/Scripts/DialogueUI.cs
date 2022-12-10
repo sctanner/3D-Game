@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -33,7 +34,15 @@ public class DialogueUI : MonoBehaviour
             {
                 dialogueIndex++;
             }
-            
+            if(dialogueLines[dialogueIndex].Contains("Checkpoint:"))
+            {
+                gameObject.GetComponent<Canvas>().enabled = false;
+                dialogueIndex++;
+            }
+            if (dialogueIndex < dialogueLines.Length && string.IsNullOrEmpty(dialogueLines[dialogueIndex]))
+            {
+                dialogueIndex++;
+            }
             if (dialogueIndex < dialogueLines.Length)
             {
                 GetComponent<TypewriterEffect>().Run(dialogueLines[dialogueIndex], textLabel);
@@ -44,10 +53,10 @@ public class DialogueUI : MonoBehaviour
             if (dialogueIndex == dialogueLines.Length)
             {
                 if(currentScene != "OpeningScene"){
-                    target.GetComponent<changeScene>().UnloadScene(currentScene);
+                    gameObject.SetActive(false);
                 }else
                 {
-                    target.GetComponent<changeScene>().LoadScene("Facility");
+                    SceneManager.LoadScene("Facility");
                 }
             }
         }
