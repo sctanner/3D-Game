@@ -39,6 +39,7 @@ public class PlayerNearDoor : MonoBehaviour
             player = GameObject.FindWithTag("PlayerWithInsectosaur").GetComponent<Transform>();
             // Calculate the distance between the player and this game object
             float distance = Vector3.Distance(player.position, transform.position);
+            Debug.Log(distance);
             //Debug.Log("Distance: "+ distance);
 
             // Check if the player is within the prompt distance

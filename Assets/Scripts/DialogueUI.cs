@@ -2,7 +2,6 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using System.IO;
-using UnityEngine.SceneManagement;
 
 public class DialogueUI : MonoBehaviour
 {
@@ -17,7 +16,6 @@ public class DialogueUI : MonoBehaviour
     {
         // Load the dialogue lines from the filePath
         dialogueLines = File.ReadAllLines(filePath);
-
         // Initialize the dialogue UI
         GetComponent<TypewriterEffect>().Run(dialogueLines[0], textLabel);
         dialogueIndex++;
@@ -53,10 +51,10 @@ public class DialogueUI : MonoBehaviour
             if (dialogueIndex == dialogueLines.Length)
             {
                 if(currentScene != "OpeningScene"){
-                    gameObject.SetActive(false);
+                    target.GetComponent<changeScene>().UnloadScene(currentScene);
                 }else
                 {
-                    SceneManager.LoadScene("Facility");
+                    target.GetComponent<changeScene>().LoadOpeningScene("Facility");
                 }
             }
         }

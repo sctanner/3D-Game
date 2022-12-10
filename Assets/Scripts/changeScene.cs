@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class changeScene : MonoBehaviour
 {
     public string currentScene;
+    public void LoadOpeningScene(string sceneName){
+        SceneManager.LoadScene(sceneName);
+    }
     public void LoadScene(string sceneName){
         GameObject player = GameObject.Find("Player");
         Debug.Log(player);
